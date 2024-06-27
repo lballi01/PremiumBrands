@@ -1,0 +1,17 @@
+h1 {
+    font-size: 100px;
+    font-weight: 750;
+    letter-spacing: 0.25rem;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+
+.container-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
