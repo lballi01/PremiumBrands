@@ -3,37 +3,46 @@ import { useState } from "react";
 const slideStyles = {
   width: "100%",
   height: "100%",
-  borderRadius: "10px",
+  
   display: "flex",
   justifyContent: "flex",
   alignItems: "center",
   color: "#000000",
   fontSize: "24px",
-  backgroundColor: "rgba(255, 255, 255, 0.8)",
-  padding: "10px",
-  textAlign: "left"
+  backgroundColor: "rgba(120, 120, 20, 0.10)",
+  padding: " 30px",
+  textAlign: "left",
+  borderRight: "8px solid",
+  borderBottom: "5px solid",
+
 };
 
 const rightArrowStyles = {
   position: "absolute",
-  top: "50%",
+  top: "95%",
   transform: "translate(0, -50%)",
-  right: "-15px",
-  fontSize: "45px",
-  color: "#000000",
+  right: "5%",
+  fontSize: "30px",
+  color: "#ffffff",
   zIndex: 1,
   cursor: "pointer",
+  backgroundColor: "rgba(0, 0, 0)",
+  paddingLeft: "10px",
+  paddingRight: "10px",
 };
 
 const leftArrowStyles = {
   position: "absolute",
-  top: "50%",
+  top: "95%",
   transform: "translate(0, -50%)",
-  left: "-15px",
-  fontSize: "45px",
-  color: "#000000",
+  left: "80%",
+  fontSize: "30px",
+  color: "#ffffff",
   zIndex: 1,
   cursor: "pointer",
+  backgroundColor: "rgba(0, 0, 0)",
+  paddingLeft: "10px",
+  paddingRight: "10px",
 };
 
 const sliderStyles = {

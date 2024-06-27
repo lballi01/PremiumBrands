@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 const slideStyles = {
-  width: "800px",
-  height: "800px",
-  borderRadius: "10px",
+  width: "100%",
+  height: "100%",
   backgroundSize: "cover",
   backgroundPosition: "center",
   objectFit: "cover",
+  borderBottom: "5px solid",
 };
 
 const rightArrowStyles = {
@@ -51,11 +51,13 @@ const slidesContainerStyles = {
   display: "flex",
   height: "100%",
   transition: "transform ease-out 0.3s",
+  
 };
 
 const slidesContainerOverflowStyles = {
   overflow: "hidden",
   height: "100%",
+  
 };
 
 const ImageSlider = ({ slides, parentWidth }) => {

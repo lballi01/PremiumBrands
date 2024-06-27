@@ -12,7 +12,7 @@ import wine from "../assets/wine.jpg";
     {
       icon: RxCrop,
       title: "Craft Beer",
-      content: "",
+      content: "OH DESCRIPTION",
       backgroundImage: craft,
     },
     {

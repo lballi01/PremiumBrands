@@ -26,26 +26,37 @@ const AboutUs = () => {
     ];
 
       const containerStyles = {
-        width: "800px",
-        height: "800px",
+        width: "700px",
+        height: "700px",
         margin: "0 auto",
-        padding: "20px"
+        display: "flex",
+        
+      };
+
+      const containerStyles1 = {
+        width: "700px",
+        height: "700px",
+        margin: "0 auto",
+        
+        
       };
 
   return (
-    <div className="flex items-center justify-center flex-col h-[900px] shadow-md my-0 py-0 relative">
-      <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${dubai})`, filter: 'grayscale(100%) opacity(50%)' }}></div>
+    <div className="flex items-center justify-center flex-col h-[900px] shadow-md my-0 py-5 relative">
+      <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${dubai})`, filter: 'grayscale(50%) opacity(70%)' }}></div>
       <div className="flex items-center justify-center w-full h-[80%]">
-        <div className="bg-white p-10 rounded-lg">
-          <h1 className="text-center text-3xl font-bold mb-10">About Us</h1>
-          <div className="container-box flex flex-col md:flex-row gap-10">
-            <div className="left-side md:w-[50%]">
-              <div style={containerStyles}>
-                <ImageSlider slides={slides} parentWidth={500} />
+        <div className=" rounded-lg z-10">
+          <h1 className="text-center text-white text-5xl font-bold mb-10">About Us</h1>
+          <div className="container-box flex flex-col md:flex-row gap-0 bg-white ">
+
+            <div className="left-side md:w-[50%] shadow-md">
+              <div style={containerStyles1}>
+                <ImageSlider slides={slides} parentWidth={700} />
               </div>
             </div>
+            
             <div className="right-side md:w-[50%]">
-              <div style={containerStyles}>
+              <div style={containerStyles}>             
                 <TextSlider texts={texts} />
               </div>
             </div>
