@@ -1,4 +1,4 @@
-
+import camel from './camel.jpg';
 import React, { useState } from "react";
 
 
@@ -10,9 +10,10 @@ const ContactUs = () => {
       className={` flex-col relative card`}
     >
     <div  className="flex items-center justify-center flex-col h-[900px] shadow-md my-0 py-5 relative">
+    <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${camel})`, filter: 'grayscale(50%) opacity(100%)' }}></div>
       <div className="container mx-auto flex flex-wrap justify-between items-center z-20">
         <div className="w-full mb-4 sm:mb-0  md:flex">
-          <div className="w-full md:w-2/3 pr-8">
+          <div className="w-full md:w-2/3 pr-8 bg-white text-black py-10">
             <h2 className="text-2xl font-semibold mb-4 text-primary-color text-center">
               Contact Us
             </h2>
@@ -57,7 +58,7 @@ const ContactUs = () => {
           </div>
  
           {/* Address and Social Media Links */}
-          <div className="w-full md:w-2/3 text-center">
+          <div className="w-full md:w-2/3 text-center bg-white text-black py-10">
             <div className="mb-4">
               <h2 className="text-2xl font-semibold mb-9 text-primary-color text-center">
                 Our Address
