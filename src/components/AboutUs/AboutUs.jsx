@@ -42,7 +42,8 @@ const AboutUs = () => {
       };
 
   return (
-    <div className="flex items-center justify-center flex-col h-[900px] shadow-md my-0 py-5 relative">
+    <section id="about-us">
+    <div  className="flex items-center justify-center flex-col h-[900px] shadow-md my-0 py-5 relative">
       <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${dubai})`, filter: 'grayscale(50%) opacity(70%)' }}></div>
       <div className="flex items-center justify-center w-full h-[80%]">
         <div className=" rounded-lg z-10">
@@ -64,6 +65,7 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

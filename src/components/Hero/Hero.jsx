@@ -4,6 +4,7 @@ import video1 from './video1.mov'
 
 const Hero = () => {
   return (
+    <section id='home'>
     <div className='hero'>
         <div className='container'>
         <h1>Best Beer in the world</h1>
@@ -11,6 +12,7 @@ const Hero = () => {
         </div>
         <video src={video1} className='video-bg'  autoPlay loop muted/>
     </div>
+    </section>
   )
 }
 
