@@ -8,7 +8,7 @@ const Navbar = () => {
  
   return (
    
-    <nav className="w-full flex py-6 fixed  z-10 items-center navbar">
+    <nav className="w-full flex py-6 fixed  z-50 items-center navbar">
  
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

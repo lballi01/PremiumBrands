@@ -15,3 +15,14 @@ h2 {
     align-items: center;
     justify-content: space-around;
 }
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 35px;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+}

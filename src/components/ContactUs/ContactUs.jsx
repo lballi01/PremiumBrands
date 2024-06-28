@@ -1,5 +1,6 @@
 import camel from './camel.jpg';
 import React, { useState } from "react";
+import './Contact.css';;
 
 
 const ContactUs = () => {
@@ -13,8 +14,8 @@ const ContactUs = () => {
     <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${camel})`, filter: 'grayscale(50%) opacity(100%)' }}></div>
       <div className="container mx-auto flex flex-wrap justify-between items-center z-20">
         <div className="w-full mb-4 sm:mb-0  md:flex">
-          <div className="w-full md:w-2/3 pr-8 bg-white text-black py-10">
-            <h2 className="text-2xl font-semibold mb-4 text-primary-color text-center">
+          <div className="border-contact w-full shadow-md md:w-2/3 pr-8 bg-white text-black py-10">
+            <h2 className="underline decoration-amber-500 text-2xl font-semibold mb-4 text-primary-color text-center">
               Contact Us
             </h2>
             <form className="max-w-md mx-auto">
@@ -58,9 +59,9 @@ const ContactUs = () => {
           </div>
  
           {/* Address and Social Media Links */}
-          <div className="w-full md:w-2/3 text-center bg-white text-black py-10">
+          <div className="shadow-md border w-full md:w-2/3 text-center bg-white text-black py-10">
             <div className="mb-4">
-              <h2 className="text-2xl font-semibold mb-9 text-primary-color text-center">
+              <h2 className=" underline decoration-amber-500 text-2xl font-semibold mb-9 text-primary-color text-center">
                 Our Address
               </h2>
               <p className="text-primary-color mb-4">
