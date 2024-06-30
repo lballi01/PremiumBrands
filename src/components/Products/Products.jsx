@@ -10,13 +10,13 @@ import { FreeMode, Pagination } from "swiper/modules";
 import { RxArrowTopRight } from "react-icons/rx";
 import { ServiceData } from "../../constants";
 
-import wine from './wine-bg.jpg';
+import wine from './wineCellar.jpg';
 
 const Products = () => {
   return (
     <section id='products'>
     <div className="flex items-center justify-center flex-col h-[900px] shadow-md my-0 py-5 relative ">
-      <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${wine})`, filter: 'grayscale(10%) opacity(80%)', zIndex:1 }}/>
+      <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${wine})`, filter: 'grayscale(33%) opacity(80%)', zIndex:1 }}/>
       
       <h1 className='py-5 z-20 text-white text-left' >Products</h1>
       <Swiper

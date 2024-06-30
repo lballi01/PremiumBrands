@@ -65,13 +65,18 @@ const ContactUs = () => {
                 Our Address
               </h2>
               <p className="text-primary-color mb-4">
-                Unrivalled Mixed Martial Arts
+                Premium Brands DWC-LLC
                 <br />
-                Unit 1, Harvest Works, 102 Harvest Ln, Neepsend
+                Dubai South Free Zone                
                 <br />
-                Sheffield S3 8EG
+                PO Box 644313
                 <br />
-                South Yorkshire
+                United Arab Emirates
+                <br />
+                <br />
+                Phone: +971 52 102 3919
+                <br />
+                Email: naheed@premiumbrandsme.com
               </p>
             </div>
           </div>

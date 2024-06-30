@@ -32,19 +32,26 @@ export const ServiceData = [
     icon: RxCrop,
     title: "Craft Beer",
     content:
-      "Artisanal breweries have been around for centuries, but the craft beer scene as we know it today really became popular in the 1970s when home-brewing became legal and common in the U.S.A. Craft Beers are defined as beers produced by small scale, independent brewers where craftsmanship is a key factor in the process, with a focus on experimentation and variety. It is the experimentation and variety that is key in both consumer choice and the brands that we list in our portfolio, beers that are packed with distinct, detectable flavours, aromas and characteristics. The world of packaged craft beer has evolved rapidly over the past couple of years. Whilst bottles historically were by far the favoured container for beers, cans have very rapidly taken over with over 70% of craft beers now sold in can, which has in turn lead to a rise in the eclectic styles and high quality designs that are now seen on craft beer cans.",
+    `Artisanal breweries have a long history, but the modern craft beer movement gained 
+    popularity in the 1970s in the U.S. when home-brewing became legal. Craft beers are
+    produced by small, independent brewers who emphasize craftsmanship, experimentation,
+    and variety, resulting in beers with distinct flavors and aromas. Recently, the craft
+    beer market has seen a significant shift from bottles to cans, with over 70% of craft
+    beers now sold in cans. This change has led to a rise in diverse styles and
+    high-quality can designs.
+    `,
     backgroundImage: craft,
   },
   {
     icon: RxCrop,
     title: "Strong Beer",
     content: `
-        Across the globe the average ABV (strength) of beer is around 4.6%, however there is a growing demand for stronger beers.
-        A strong beer is defined as being above 8% ABV, within our portfolio we carry beers in the Strong Beer category from 8.5% through to 16%
-        as more drinkers in pockets around the world prefer the greater intense flavours of a beer higher in alcohol. \n
-        
-        Strong beers are brewed in the traditional brewing hotbeds throughout Europe and beyond, including the UK, Belgium and the USA and span a number of beer styles, from lagers, to ales and stouts.
-        Our range of Belgian brewed strong beers offer variety and choice in this growing sector of the market.
+        Globally, the average beer has an ABV of around 4.6%, but there's increasing demand
+        for stronger beers, defined as having an ABV above 8%. Strong beers in the portfolio 
+        range from 8.5% to 16% ABV, catering to those who prefer more intense flavors. These
+        beers are brewed in traditional brewing regions like the UK, Belgium, and the USA,
+        and include various styles such as lagers, ales, and stouts. The range of Belgian
+        strong beers in the portfolio highlights the diversity and growth in this market segment.
     `,
     backgroundImage: beer,
   },
@@ -52,59 +59,50 @@ export const ServiceData = [
     icon: RxCrop,
     title: "Cider",
     content: `
-        Apple cider is one of the oldest natural beverages produced by humans, and even the “father” of medicine, Hippocrates,
-        considered it a true antibiotic. Historians believe that cider has been produced since 1500 BC, in Mesopotamia, being 
-        later consumed and appreciated by ancient Romans and Greeks. Today cider has a worldwide appeal and has progressed beyond
-         ‘just’ apple cider and is now one the fastest growing drink categories worldwide.
-
-        The variations in aroma, flavour and sweetness are vast. Palate cleansing, smooth, sweet, acidic or tart; ciders offer 
-        plenty of scope for exploration, which helps to drive their popularity. They can vary not only in colour but also from 
-        completely clear to cloudy with sediment ranges, due to the filtering between pressing and fermentation. 
-
-        Our range of British made ciders offer the variety and depth of portfolio that is in demand, with Apple, Mixed Berries 
-        and Vintage variants to suit all occasions.
+        Apple cider is one of the oldest natural beverages, dating back
+        to 1500 BC in Mesopotamia, and was even considered an antibiotic
+        by Hippocrates. Ancient Romans and Greeks also consumed it. Today,
+        cider is a globally popular drink and one of the fastest-growing
+        categories. It offers a wide range of aromas, flavors, and sweetness
+        levels, from smooth and sweet to acidic and tart, and can be clear
+        or cloudy. The British-made ciders in the portfolio include varieties
+        such as Apple, Mixed Berries, and Vintage, catering to diverse tastes
+        and occasions.
     `,
     backgroundImage: cider,
   },
   {
     icon: RxCrop,
     title: "Boutique Wines",
-    content: `Wine has been produced for thousands of years, with evidence of ancient wine production in Georgia from c. 6000 BCE.
-         Vitis Vinifera, the grape genus almost exclusively used in wine production around the world, was being cultivated in 
-         Middle East dating back to 4000BCE.
-
-        Wine production and consumption increased, burgeoning from the 15th century onwards as part of European expansion.
-        Despite the devastating 1887 phylloxera louse infestation, modern science and technology adapted and industrial wine
-        production and wine consumption now occur throughout the world.
-
-        Boutique is often translated to mean small, but size is not the way in which we choose the wines listed in our portfolio.
-        We work with wineries that are passionate, individual and creative in the way they produce their wines – probably better
-        described as artisanal or hand-crafted. Our distribution network allows us to offer wines that would otherwise be limited
-        to sales local to the immediate vicinity of the winery. Quality is at the forefront of these wines, from the root stock,
-        to fruit, through to harvest and aging.
-        `,
+    content: `  
+        Wine has been produced for thousands of years, with ancient 
+        evidence from Georgia around 6000 BCE and grape cultivation in the Middle
+        East dating back to 4000 BCE. Wine production expanded significantly
+        from the 15th century during European expansion, despite setbacks
+        like the 1887 phylloxera infestation. Modern wine production is now
+        global. In our portfolio, we focus on artisanal or hand-crafted wines,
+        not just small-scale operations. We collaborate with passionate,
+        creative wineries, ensuring quality from root stock to aging. Our
+        distribution network makes these high-quality wines accessible
+        beyond their local regions.
+      `,
     backgroundImage: wine,
   },
   {
     icon: RxCrop,
     title: "Spirits",
-    content: `As with wines, spirits in their various forms have been around for many years. Our focus is on gin and whisky as two
-         of the most popular spirits in the world today.
-
-        Whiskey, or whisky, depending on where you are, is believed by most to have originated in Scotland. However, the first
-        written record traces back to Ireland in the year of 1405 and it was then dubbed, aqua vitae, translating to 
-        “water of life”. During the 19th century, titans of the whisky world like James Buchanan, Tommy Dewar, Johnnie Walker
-        & James Chivas took Scotch out of Scotland for the first time. Today we continue that tradition with a selection of 
-        fine malt whiskies made available to overseas markets.
-
-        Gin was first created in Holland as a medicine. It was sold in pharmacies and was said to relieve kidney and
-        stomach ailments as well as gallstones and gout. The juniper berry which gin is derived from was said to have 
-        medicinal qualities which contributed to its popularity.
-
-        Gin is now an extremely popular drink around the world, its reinvention as a fashionable spirit has seen remarkable
-        growth in the number of producers, the range of flavours and consumption. As with the wines we carry, our gin 
-        portfolio is sourced from artisanal producers who grow and source all-natural ingredients to create craft-focussed
-        drinks that transform the drinkers experience.
+    content: `
+        Spirits like gin and whisky have long histories. Whisky, believed to
+        have originated in Scotland, has its first written record from Ireland
+        in 1405, where it was called "aqua vitae" or "water of life." In the
+        19th century, notable figures like James Buchanan and Johnnie Walker
+        introduced Scotch whisky internationally. Our selection includes fine
+        malt whiskies for overseas markets.
+        
+        Gin, initially created in Holland as a medicinal remedy, has evolved into
+        a globally popular spirit. Its reinvention has led to a surge in producers
+        and diverse flavors. Our gin portfolio features artisanal producers who
+        use natural ingredients to craft high-quality, unique drinks.
         `,
     backgroundImage: spirits,
   },
